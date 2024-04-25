@@ -1,0 +1,29 @@
+.hasNotifications svg {
+    color: red; /* Cambia el color del icono */
+    animation: pulse 0.5s infinite alternate; /* Agrega una animación de pulsación */
+}
+
+.hasNotNotifications svg {
+    color: #00627E;
+}
+.notificationCounter {
+    background-color: red; /* Cambia el color del fondo del contador */
+    color: white; /* Cambia el color del texto del contador */
+    border-radius: 50%; /* Hace que el contador sea un círculo */
+    padding: 0.1rem 0.3rem; /* Ajusta el padding del contador */
+    position: absolute; /* Hace que el contador se posicione de forma absoluta */
+    top: 0; /* Ajusta la posición del contador */
+    right: 0; /* Ajusta la posición del contador */
+    font-size: 0.8rem; /* Ajusta el tamaño del texto del contador */
+}
+
+.notNotificationCounter {
+display: none;    
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.2); /* Escala el icono */
+    }
+}
+
