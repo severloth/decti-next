@@ -9,7 +9,7 @@ interface UserHomeProps {
 
 const UserHome: React.FC<UserHomeProps> = ({ nombreUsuario }) => {
 
-    const [notifications, setNotifications] = React.useState([]);
+    const [notifications, setNotifications] = React.useState([1111]);
 
     return (
         <div style={{ margin: '60px' }}>

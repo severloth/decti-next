@@ -1,0 +1,70 @@
+
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .topic {
+    font-style: italic;
+    color: gray;
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-size:25px ;
+  }
+  
+  .description {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .descriptionText {
+    color: gray;
+  }
+  
+  .image {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Ajusta el caption a lo ancho de la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: small;
+    color: gray;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .contentText {
+    line-height: 1.2;
+  }
+  

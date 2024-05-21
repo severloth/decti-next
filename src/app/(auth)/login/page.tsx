@@ -50,10 +50,10 @@ const LoginPage = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          backgroundColor: '#f2f2f2', // Cambiado a un blanco ligeramente atenuado
+          backgroundColor: '#f2f2f2',
           padding: '20px',
           borderRadius: '10px',
-          boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.8)', // Ajustado el valor de la sombra
+          boxShadow: '0px 5px 20px rgba(0, 0, 0, 0.8)',
           height: '400px',
           width: '100%',
           justifyContent: 'center'
